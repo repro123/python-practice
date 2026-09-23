@@ -82,3 +82,92 @@
 #     calc_unit = "pounds"
 
 # print(f"You are {round(calc_weight)} {(calc_unit)}")
+
+# while loop
+# i = 1
+
+# while i <= 5:
+#     print("*" * i)
+#     i += 1
+# print("Done")
+
+# secret_number = 9
+# guess_count = 0
+# guess_limit = 3
+# while guess_count < guess_limit:
+#     guess = int(input("Guess: "))
+#     guess_count += 1
+#     if guess == secret_number:
+#         print("You win!")
+#         break
+# else:
+#     print("You lost")
+
+# command = ""
+# started = False
+
+
+# while True:
+#     command = input(">").lower()
+#     if command == "start":
+#         if started:
+#             print("Car is already started")
+#         else:
+#             started = True
+#             print("Car started...")
+#     elif command == "stop":
+#         if not Started:
+#             print("Car is already stopped")
+#         else:
+#             Started = False
+#             print("Car stopped.")
+#     elif command == "help":
+#         print("""
+# start - to start the car
+# stop - to stop the car
+# quit - to quit
+#         """)
+#     elif command == "quit":
+#         break
+#     else:
+#         print("Sorry i dont understand this")
+
+
+# for item in ["Rsd", "refsdws", "rdfvcwed"]:
+#     print(item)
+
+# for num in range(5, 10):
+#     print(num)
+
+# prices = [10, 20, 30]
+
+# i = 0
+# for item in prices:
+#     i += item
+# print(i)
+
+# nested loops
+# for x in range(4):
+#     for y in range(3):
+#         print(f"{x}, {y}")
+
+# numbers = [5, 2, 5, 2, 2]
+
+# for num in numbers:
+#     print("x" * num)
+
+# # lists
+# names = ["fdc", "ssx", "ewdscx", "wsx"]
+# print(names[0])  # index
+# print(names[-1])  # index
+
+# largest number in a list
+# numbers = [3, 4, 6, 8, 8, 3, 1]
+# max = numbers[0]
+# for num in numbers:
+#     if num > max:
+#         max = num
+# print(max)
+
+# 2d lists
+matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]

@@ -170,4 +170,93 @@
 # print(max)
 
 # 2d lists
-matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+# matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+
+# list functions
+# numbers = [4, 2, 3, 5, 5, 5, 6, 2, 7]
+# numbers.append(13)
+# numbers.insert(0, 2)
+# numbers.remove(5)
+# # numbers.clear()
+# numbers.pop()
+# print(numbers)
+# print(numbers.index(7))
+# print(60 in numbers)
+# print(numbers.count(2))
+# numbers.sort()
+# numbers.reverse()
+
+# nums = numbers.copy()
+# print(numbers, nums)
+
+# uniques = []
+# for num in numbers:
+#     if not num in uniques:
+#         uniques.append(num)
+
+# print(uniques)
+
+# Tuples
+# there are immutable
+# numbers = (1, 2, 3)
+# numbers[0]
+# print(numbers)
+
+# unpacking
+# coordinates = (1, 2, 3)
+# numbers = [3, 4, 5]
+# x, y, z = coordinates
+# a, b, c = numbers
+# print(x, y, z)
+# print(a, b, c)
+
+# DICTIONARIES
+
+# customer = {"name": "Repro", "age": 30, "is_Verified": True}
+
+# emoji converter
+
+# functions
+
+
+# def greet_user(first_name, last_name):
+#     print(f"Hi there {first_name} {last_name}")
+#     print("Welcome aboard")
+
+
+# print("Start")
+# greet_user(last_name="Repro", first_name="Ibro")
+# print("Finish")
+
+# return in functions
+
+
+# def square(num):
+#     return num * num
+
+
+# print(square(3))
+
+# reuseable function
+# message = input(">")
+
+
+# def emoji_converter(message):
+#     words = message.split(" ")
+#     emojis = {":)": "laugh"}
+#     output = ""
+#     for word in words:
+#         output += emojis.get(word, word) + " "
+#     return output
+
+
+# exceptions
+# try:
+#     age = int(input("Age: "))
+#     income = 200000
+#     risk = income / age
+#     print(age)
+# except ZeroDivisionError:
+#     print("Age can not be 0")
+# except ValueError:
+#     print("Invalid value")

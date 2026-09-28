@@ -351,7 +351,7 @@ import random
 
 # files and directories
 
-from pathlib import Path
+# from pathlib import Path
 
 # relative or absulut...we use relative
 # path = Path("emails")
@@ -360,6 +360,6 @@ from pathlib import Path
 # print(path.rmdir())
 
 
-path = Path()
-for file in path.glob("*.py"):
-    print(file)
+# path = Path()
+# for file in path.glob("*.py"):
+#     print(file)

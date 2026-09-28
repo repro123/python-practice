@@ -310,3 +310,56 @@
 
 # dog1 = Dog()
 # dog1.walk()
+
+# import converters
+# print(converters.kg_to_lbs(70))
+
+# or
+
+# from converters import kg_to_lbs
+
+# kg_to_lbs(100)
+
+# import ecommerce.shipping
+
+# ecommerce.shipping.calc_shipping()
+
+# from ecommerce import shipping
+
+# shipping.calc_shipping()
+
+# built in modules
+import random
+
+# # for i in range(3):
+# #     print(random.randint(10, 20))
+# members = ["weds", "rewfw", "wefd", "sdasa"]
+
+# leader = random.choice(members)
+# print(leader)
+
+
+# class Dice:
+#     def roll(self):
+#         x = random.randint(1, 6)
+#         y = random.randint(1, 6)
+#         return x, y
+
+
+# dice = Dice()
+# print(dice.roll())
+
+# files and directories
+
+from pathlib import Path
+
+# relative or absulut...we use relative
+# path = Path("emails")
+# # print(path.exists())
+# # print(path.mkdir())
+# print(path.rmdir())
+
+
+path = Path()
+for file in path.glob("*.py"):
+    print(file)
